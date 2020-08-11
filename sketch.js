@@ -14,6 +14,8 @@ function draw() {
   image(chicken, mouseX, mouseY, size, size);
   if(big){
     size = 200;
+  }else{
+    size = 50;
   }
 }
 function mousePressed(){
